@@ -75,9 +75,13 @@ Nói đơn giản
 🏠 Simple Factory
 --------------
 Ví dụ thực tế
+> Giả sử, bạn đang xây một căn nhà và bạn cần nhiều chiếc Cửa (object). Rất phiền nếu mỗi lần bạn cần một object cửa, lại phải mặc đồ thợ mộc và bắt đầu tạo ra từng chiếc trong nhà của bạn. Thay vì vậy, bạn chỉ việc lấy chiếc cửa từ ***Factory***.
+
 > Consider, you are building a house and you need doors. It would be a mess if every time you need a door, you put on your carpenter clothes and start making a door in your house. Instead you get it made from a factory.
 
 Nói đơn giản
+> Simple Factory đơn giản tạo cho bạn một instance mà không cần giải thích quá trình tạo object (instantiation) cho bạn nghe.
+
 > Simple factory simply generates an instance for client without exposing any instantiation logic to the client
 
 > Wikipedia: [Factory_object-oriented_programming](https://en.wikipedia.org/wiki/Factory_(object-oriented_programming))
