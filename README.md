@@ -1,3 +1,12 @@
+#### Những tài nguyên mà dự án này đã based trên:
+> https://github.com/qtvhao/DesignPatternsPHP
+> https://github.com/kamranahmedse/design-patterns-for-humans
+
+#### Các tác giả
+> https://github.com/qtvhao/ (Hào Nghiêm - translator)
+> https://github.com/domnikl/ (Dominik Liebler)
+> https://github.com/kamranahmedse/ (Kamran Ahmed)
+
 ![Design Patterns For Humans](https://cloud.githubusercontent.com/assets/11269635/23065273/1b7e5938-f515-11e6-8dd3-d0d58de6bb9a.png)
 
 ***
