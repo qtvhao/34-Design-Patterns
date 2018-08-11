@@ -75,7 +75,7 @@ In plain words
 
 🏠 Simple Factory
 --------------
-Real world example
+Ví dụ thực tế
 > Consider, you are building a house and you need doors. It would be a mess if every time you need a door, you put on your carpenter clothes and start making a door in your house. Instead you get it made from a factory.
 
 In plain words
@@ -139,7 +139,7 @@ When creating an object is not just a few assignments and involves some logic, i
 🏭 Factory Method
 --------------
 
-Real world example
+Ví dụ thực tế
 > Consider the case of a hiring manager. It is impossible for one person to interview for each of the positions. Based on the job opening, she has to decide and delegate the interview steps to different people.
 
 In plain words
@@ -227,7 +227,7 @@ Useful when there is some generic processing in a class but the required sub-cla
 🔨 Abstract Factory
 ----------------
 
-Real world example
+Ví dụ thực tế
 > Extending our door example from Simple Factory. Based on your needs you might get a wooden door from a wooden door shop, iron door from an iron shop or a PVC door from the relevant shop. Plus you might need a guy with different kind of specialities to fit the door, for example a carpenter for wooden door, welder for iron door etc. As you can see there is a dependency between the doors now, wooden door needs carpenter, iron door needs a welder etc.
 
 In plain words
@@ -351,7 +351,7 @@ When there are interrelated dependencies with not-that-simple creation logic inv
 
 👷 Builder
 --------------------------------------------
-Real world example
+Ví dụ thực tế
 > Imagine you are at Hardee's and you order a specific deal, lets say, "Big Hardee" and they hand it over to you without *any questions*; this is the example of simple factory. But there are cases when the creation logic might involve more steps. For example you want a customized Subway deal, you have several options in how your burger is made e.g what bread do you want? what types of sauces would you like? What cheese would you want? etc. In such cases builder pattern comes to the rescue.
 
 In plain words
@@ -458,7 +458,7 @@ When there could be several flavors of an object and to avoid the constructor te
 
 🐑 Prototype
 ------------
-Real world example
+Ví dụ thực tế
 > Remember dolly? The sheep that was cloned! Lets not get into the details but the key point here is that it is all about cloning
 
 In plain words
@@ -527,7 +527,7 @@ When an object is required that is similar to existing object or when the creati
 
 💍 Singleton
 ------------
-Real world example
+Ví dụ thực tế
 > There can only be one president of a country at a time. The same president has to be brought to action, whenever duty calls. President here is singleton.
 
 In plain words
@@ -597,7 +597,7 @@ Wikipedia says
 
 🔌 Adapter
 -------
-Real world example
+Ví dụ thực tế
 > Consider that you have some pictures in your memory card and you need to transfer them to your computer. In order to transfer them you need some kind of adapter that is compatible with your computer ports so that you can attach memory card to your computer. In this case card reader is an adapter.
 > Another example would be the famous power adapter; a three legged plug can't be connected to a two pronged outlet, it needs to use a power adapter that makes it compatible with the two pronged outlet.
 > Yet another example would be a translator translating words spoken by one person to another
@@ -684,7 +684,7 @@ $hunter->hunt($wildDogAdapter);
 
 🚡 Bridge
 ------
-Real world example
+Ví dụ thực tế
 > Consider you have a website with different pages and you are supposed to allow the user to change the theme. What would you do? Create multiple copies of each of the pages for each of the themes or would you just create separate theme and load them based on the user's preferences? Bridge pattern allows you to do the second i.e.
 
 ![With and without the bridge pattern](https://cloud.githubusercontent.com/assets/11269635/23065293/33b7aea0-f515-11e6-983f-98823c9845ee.png)
@@ -780,7 +780,7 @@ echo $careers->getContent(); // "Careers page in Dark Black";
 🌿 Composite
 -----------------
 
-Real world example
+Ví dụ thực tế
 > Every organization is composed of employees. Each of the employees has the same features i.e. has a salary, has some responsibilities, may or may not report to someone, may or may not have some subordinates etc.
 
 In plain words
@@ -913,7 +913,7 @@ echo "Net salaries: " . $organization->getNetSalaries(); // Net Salaries: 27000
 ☕ Decorator
 -------------
 
-Real world example
+Ví dụ thực tế
 
 > Imagine you run a car service shop offering multiple services. Now how do you calculate the bill to be charged? You pick one service and dynamically keep adding to it the prices for the provided services till you get the final cost. Here each type of service is a decorator.
 
@@ -1033,7 +1033,7 @@ echo $someCoffee->getDescription(); // Simple Coffee, milk, whip, vanilla
 📦 Facade
 ----------------
 
-Real world example
+Ví dụ thực tế
 > How do you turn on the computer? "Hit the power button" you say! That is what you believe because you are using a simple interface that computer provides on the outside, internally it has to do a lot of stuff to make it happen. This simple interface to the complex subsystem is a facade.
 
 In plain words
@@ -1122,7 +1122,7 @@ $computer->turnOff(); // Bup bup buzzz! Haah! Zzzzz
 🍃 Flyweight
 ---------
 
-Real world example
+Ví dụ thực tế
 > Did you ever have fresh tea from some stall? They often make more than one cup that you demanded and save the rest for any other customer so to save the resources e.g. gas etc. Flyweight pattern is all about that i.e. sharing.
 
 In plain words
@@ -1202,7 +1202,7 @@ $shop->serve();
 
 🎱 Proxy
 -------------------
-Real world example
+Ví dụ thực tế
 > Have you ever used an access card to go through a door? There are multiple options to open that door i.e. it can be opened either using access card or by pressing a button that bypasses the security. The door's main functionality is to open but there is a proxy added on top of it to add some functionality. Let me better explain it using the code example below.
 
 In plain words
@@ -1299,7 +1299,7 @@ Wikipedia says
 🔗 Chain of Responsibility
 -----------------------
 
-Real world example
+Ví dụ thực tế
 > For example, you have three payment methods (`A`, `B` and `C`) setup in your account; each having a different amount in it. `A` has 100 USD, `B` has 300 USD and `C` having 1000 USD and the preference for payments is chosen as `A` then `B` then `C`. You try to purchase something that is worth 210 USD. Using Chain of Responsibility, first of all account `A` will be checked if it can make the purchase, if yes purchase will be made and the chain will be broken. If not, request will move forward to account `B` checking for amount if yes chain will be broken otherwise the request will keep forwarding till it finds the suitable handler. Here `A`, `B` and `C` are links of the chain and the whole phenomenon is Chain of Responsibility.
 
 In plain words
@@ -1402,7 +1402,7 @@ $bank->pay(259);
 👮 Command
 -------
 
-Real world example
+Ví dụ thực tế
 > A generic example would be you ordering food at a restaurant. You (i.e. `Client`) ask the waiter (i.e. `Invoker`) to bring some food (i.e. `Command`) and waiter simply forwards the request to Chef (i.e. `Receiver`) who has the knowledge of what and how to cook.
 > Another example would be you (i.e. `Client`) switching on (i.e. `Command`) the television (i.e. `Receiver`) using a remote control (`Invoker`).
 
@@ -1518,7 +1518,7 @@ Command pattern can also be used to implement a transaction based system. Where 
 ➿ Iterator
 --------
 
-Real world example
+Ví dụ thực tế
 > An old radio set will be a good example of iterator, where user could start at some channel and then use next or previous buttons to go through the respective channels. Or take an example of MP3 player or a TV set where you could press the next and previous buttons to go through the consecutive channels or in other words they all provide an interface to iterate through the respective channels, songs or radio stations.  
 
 In plain words
@@ -1624,7 +1624,7 @@ $stationList->removeStation(new RadioStation(89)); // Will remove station 89
 👽 Mediator
 ========
 
-Real world example
+Ví dụ thực tế
 > A general example would be when you talk to someone on your mobile phone, there is a network provider sitting between you and them and your conversation goes through it instead of being directly sent. In this case network provider is mediator.
 
 In plain words
@@ -1695,7 +1695,7 @@ $jane->send('Hey!');
 
 💾 Memento
 -------
-Real world example
+Ví dụ thực tế
 > Take the example of calculator (i.e. originator), where whenever you perform some calculation the last calculation is saved in memory (i.e. memento) so that you can get back to it and maybe get it restored using some action buttons (i.e. caretaker).
 
 In plain words
@@ -1784,7 +1784,7 @@ $editor->getContent(); // This is the first sentence. This is second.
 
 😎 Observer
 --------
-Real world example
+Ví dụ thực tế
 > A good example would be the job seekers where they subscribe to some job posting site and they are notified whenever there is a matching job opportunity.   
 
 In plain words
@@ -1873,7 +1873,7 @@ $jobPostings->addJob(new JobPost('Software Engineer'));
 
 🏃 Visitor
 -------
-Real world example
+Ví dụ thực tế
 > Consider someone visiting Dubai. They just need a way (i.e. visa) to enter Dubai. After arrival, they can come and visit any place in Dubai on their own without having to ask for permission or to do some leg work in order to visit any place here; just let them know of a place and they can visit it. Visitor pattern lets you do just that, it helps you add places to visit so that they can visit as much as they can without having to do any legwork.
 
 In plain words
@@ -2013,7 +2013,7 @@ $dolphin->accept($jump);   // Walked on water a little and disappeared
 💡 Strategy
 --------
 
-Real world example
+Ví dụ thực tế
 > Consider the example of sorting, we implemented bubble sort but the data started to grow and bubble sort started getting very slow. In order to tackle this we implemented Quick sort. But now although the quick sort algorithm was doing better for large datasets, it was very slow for smaller datasets. In order to handle this we implemented a strategy where for small datasets, bubble sort will be used and for larger, quick sort.
 
 In plain words
@@ -2085,7 +2085,7 @@ $sorter->sort($dataset); // Output : Sorting using quick sort
 
 💢 State
 -----
-Real world example
+Ví dụ thực tế
 > Imagine you are using some drawing application, you choose the paint brush to draw. Now the brush changes its behavior based on the selected color i.e. if you have chosen red color it will draw in red, if blue then it will be in blue etc.  
 
 In plain words
@@ -2180,7 +2180,7 @@ $editor->type('Fifth line');
 📒 Template Method
 ---------------
 
-Real world example
+Ví dụ thực tế
 > Suppose we are getting some house built. The steps for building might look like
 > - Prepare the base of house
 > - Build the walls
