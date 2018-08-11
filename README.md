@@ -234,6 +234,8 @@ Useful when there is some generic processing in a class but the required sub-cla
 ----------------
 
 Ví dụ thực tế
+> Mở rộng từ chiếc cửa trong ví dụ Simple Factory. Dựa trên nhu cầu của bạn có thể mua cửa gỗ từ shop bán cửa gỗ, cửa sắt từ shop bán sắt, hay cửa PVC từ shop ABC. Bạn cũng cần một người thợ, có loại kỹ năng phù hợp với loại cửa. Ví dụ: Cần thợ mộc cho cửa gỗ, thợ hàn cho cửa kim loại, ... 
+
 > Extending our door example from Simple Factory. Based on your needs you might get a wooden door from a wooden door shop, iron door from an iron shop or a PVC door from the relevant shop. Plus you might need a guy with different kind of specialities to fit the door, for example a carpenter for wooden door, welder for iron door etc. As you can see there is a dependency between the doors now, wooden door needs carpenter, iron door needs a welder etc.
 
 Nói đơn giản
