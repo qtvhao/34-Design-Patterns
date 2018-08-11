@@ -31,15 +31,13 @@ A topic that can easily make anyone's mind wobble. Here I try to make them stick
 🚀 Introduction
 =================
 
-> Design patterns là cách giải quyết những problems lặp đi lặp lại; hướng dẫn cách giải quyết các vấn đề nhất định. Tham khảo bài viết: https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html
+> Design patterns là cách giải quyết những problems lặp đi lặp lại; **hướng dẫn cách giải quyết các vấn đề nhất định**. Tham khảo bài viết: https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html
 
 Design patterns are solutions to recurring problems; **guidelines on how to tackle certain problems**. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen. These are, rather, guidelines on how to tackle certain problems in certain situations.
 
 > Design patterns are solutions to recurring problems; guidelines on how to tackle certain problems
 
-Wikipedia describes them as
-
-> In software engineering, a software design pattern is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations.
+> Wikipedia: https://en.wikipedia.org/wiki/Software_design_pattern
 
 ⚠️ Be Careful
 -----------------
