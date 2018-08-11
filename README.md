@@ -143,9 +143,13 @@ When creating an object is not just a few assignments and involves some logic, i
 --------------
 
 Ví dụ thực tế
+> Xem xét tình huống của một Hiring Manager. Không thể nếu một người phỏng vấn cho từng vị trí. Dựa trên công việc, Hiring Manager phải quyết định và ủy nhiệm (delegate) các bước này cho các người khác nhau.
+
 > Consider the case of a hiring manager. It is impossible for one person to interview for each of the positions. Based on the job opening, she has to decide and delegate the interview steps to different people.
 
 Nói đơn giản
+> Factory Method cung cấp cách ủy thác phần logic cho các class nhỏ.
+
 > It provides a way to delegate the instantiation logic to child classes.
 
 Wikipedia says
