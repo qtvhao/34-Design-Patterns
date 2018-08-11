@@ -53,6 +53,7 @@ Phân loại các Design Patterns - Types of Design Patterns
 * [Creational](#creational-design-patterns)
 * [Structural](#structural-design-patterns)
 * [Behavioral](#behavioral-design-patterns)
+
 Tham khảo: https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html#PhnloiDesignPatterns
 
 Creational Design Patterns
