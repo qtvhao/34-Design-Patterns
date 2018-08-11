@@ -12,6 +12,12 @@
 ***
 
 <p align="center">
+🎉 Giải thích siêu đơn giản về Design Patterns! 🎉
+</p>
+<p align="center">
+Có nhiều Design Patterns tốn thời gian để hiểu, áp dụng và tạo ra kết quả. Dự án này, tôi cố gắng làm các Design Pattern trở nên dễ hiểu và dễ nhớ hơn với mọi người (và cả với tôi) bằng cách giải thích chúng theo cách <i>đơn giản nhất</i> có thể.
+</p>
+<p align="center">
 🎉 Ultra-simplified explanation to design patterns! 🎉
 </p>
 <p align="center">
@@ -24,6 +30,8 @@ A topic that can easily make anyone's mind wobble. Here I try to make them stick
 
 🚀 Introduction
 =================
+
+> Design patterns là cách giải quyết những problems lặp đi lặp lại; hướng dẫn cách giải quyết các vấn đề nhất định. Tham khảo bài viết: https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html
 
 Design patterns are solutions to recurring problems; **guidelines on how to tackle certain problems**. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen. These are, rather, guidelines on how to tackle certain problems in certain situations.
 
@@ -41,15 +49,19 @@ Wikipedia describes them as
 
 > Also note that the code samples below are in PHP-7, however this shouldn't stop you because the concepts are same anyways. Plus the **support for other languages is underway**.
 
-Types of Design Patterns
+Phân loại các Design Patterns - Types of Design Patterns
 -----------------
 
 * [Creational](#creational-design-patterns)
 * [Structural](#structural-design-patterns)
 * [Behavioral](#behavioral-design-patterns)
+Tham khảo: https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html#PhnloiDesignPatterns
 
 Creational Design Patterns
 ==========================
+
+In plain words
+> Creational patterns tập trung vào cách tạo một object hoặc nhóm các objects có liên quan.
 
 In plain words
 > Creational patterns are focused towards how to instantiate an object or group of related objects.
