@@ -1043,13 +1043,18 @@ echo $someCoffee->getDescription(); // Simple Coffee, milk, whip, vanilla
 ----------------
 
 Ví dụ thực tế
+> Bạn mở PC như thế nào? "Bấm phím Power"! Bạn đang sử dụng interface đơn giản mà máy tính cung cấp phía ngoài, ở bên trong PC phải làm rất nhiều việc. Interface đơn giản cho subsystem phức tạp gọi là Facade.
+
+![](http://deliverchoices.co.in/wp-content/uploads/2017/07/facade.png)
+
 > How do you turn on the computer? "Hit the power button" you say! That is what you believe because you are using a simple interface that computer provides on the outside, internally it has to do a lot of stuff to make it happen. This simple interface to the complex subsystem is a facade.
 
 Nói đơn giản
+> Facade pattern cung cấp một interface đơn giản cho subsystem phức tạp.
+
 > Facade pattern provides a simplified interface to a complex subsystem.
 
-Wikipedia says
-> A facade is an object that provides a simplified interface to a larger body of code, such as a class library.
+> Wikipedia: [Facade_pattern](https://en.wikipedia.org/wiki/Facade_pattern)
 
 **Programmatic Example**
 
